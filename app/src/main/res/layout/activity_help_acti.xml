@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="#030A41"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HelpACti">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse"
+                android:textColor="#FFC801"
+                android:textStyle="bold"
+                android:background="#0F0F0F"
+                android:textSize="30sp"
+                />
+            <TextView
+
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse1"
+                />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse2"
+                />
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse3"
+                />
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse4"
+                />
+            <TextView
+                android:layout_marginBottom="50dp"
+                android:textSize="17sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howtouse5"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Gazipur to Komolapur Train Time Schedule</string>
+    <string name="enteremail">Enter your Email</string>
+    <string name="enterpass">Enter your Password</string>
+    <string name="Signup">Sign Up</string>
+    <string name="alreadyreg">Already Registered ?</string>
+    <string name="loginhere">Click Here</string>
+    <string name="enter">Enter</string>
+    <string name="email">Email</string>
+    <string name="bio">Student of Dhaka International University</string>
+    <string name="newuser">New User ?</string>
+    <string name="reghere">Register Here"</string>
+    <string name="login">Login In</string>
+    <string name="password">Password</string>
+    <string name="title_activity_navigation_sujoy">NavigationSujoy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    //time
+    <string name="aa1">3.38 a.m - 9.22 a.m</string>
+    <string name="aa2">9.42 a.m - 4.40 p.m</string>
+    <string name="aa3">5.10 p.m - 8.38 p.m</string>
+    //kom to gazi
+    <string name="aa4">4.45 a.m - 8.15 a.m</string>
+    <string name="aa5">10.00 a.m - 5.20 p.m</string>
+    <string name="aa6">6.00 p.m - 12.50 p.m</string>
+
+
+    //navbaritems
+
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="call">Call US</string>
+    //realtime image
+    <string name="selectpic">Choose Image</string>
+    <string name="aboutthenews">Write Something</string>
+    <string name="up11">UPLOAD</string>
+    <string name="sup">Show Uploads</string>
+    <string name="sup1">Show Update News</string>
+    //message
+    <string name="enternum2">Enter the number</string>
+    <string name="enternum3">Enter the text</string>
+    <string name="enternum4">Send</string>
+    <string name="enternum5">Charge applicable : Tk 4 plus 15% VAT = Tk 4.60 per SMS</string>
+    <string name="enternum6">Type Tr (Give Space), Type Train number/Train Code and send the SMS to 16318 (using GP/Robi/BL SIM).
+
+For Example TR 701 or TR subarna and send to 16318 to get the latest status of Subarna</string>
+    <string name="enternum7">Train Codes</string>
+    <string name="enternum9">কমলাপুর  থেকে  জয়দেবপুর : ধূমকেতু -৭৬৯,সুন্দরবন -৭২৬,নীলসাগর -৭৬৫,যমুনা -৭৪৫,একতা  -৭০৫,তুরাগ -০১,টাঙ্গাইল কমিউটার -১০১৮,সিরাজগঞ্জ এক্সপ্রেস -৭৭৬,ভাওয়াল -৫৫,রাজশাহী -৫৫২,জামালপুর কমিউটার -৫১,সিল্কসিটি -৭৫৩,হাওর -৭৭৭,বলাকা -৪৯,চিত্রা -৭৬৪,দ্রুতযান -৭৫৭,দেওয়ানগঞ্জ কমিউটার -৪৭,কালিয়াকৈর কমিউটার -০৩,লালমনি -৭৫১,মহুয়া -৪৩,পদ্মা -৭৬০,তিস্তা -৭০৭,ব্রম্মপুত্র -৭৪৩। </string>
+    <string name="enternum8">জয়দেবপুর থেকে কমলাপুর : ধূমকেতু -৭৭০,সুন্দরবন -৭২৫,নীলসাগর -৭৬৬,যমুনা -৭৪৬,একতা-৭০৬,তুরাগ -০২,টাঙ্গাইল কমিউটার -১০২৭,সিরাজগঞ্জ এক্সপ্রেস -৭৭৫,ভাওয়াল -৫৬,রাজশাহী -৫৫১,জামালপুর কমিউটার -৫২,সিল্কসিটি -৭৫৪,হাওর -৭৭৮,বলাকা -৫০,চিত্রা -৭৮০,দ্রুতযান -৭৫৮,দেওয়ানগঞ্জ কমিউটার -৪৮,কালিয়াকৈর কমিউটার -০৪,লালমনি -৭৫২,মহুয়া -৪৪,পদ্মা -৭৮০। </string>
+
+
+    //homeitems
+    <string name="gazitodka">Gazipur to Kamalapur</string>
+    <string name="dkatogazi">kamalapur to Gazipur</string>
+    <string name="update">Train Update News</string>
+    <string name="sms">Get Position By SMS </string>
+    <string name="fb">Try From Facebook </string>
+    <string name="up1">Post Photos(png)and help others</string>
+    //help Activity
+    <string name="howtouse">How to use this app ?</string>
+    <string name="howtouse1">1. If you want to check the Train time schedule for (Gazipur to Kamalapur) then click on the 1st button of the Home Activity.</string>
+    <string name="howtouse2">2. If you want to check the Train time schedule for (Kamalapur to Gazipur) then click on the 2nd button of the Home Activity.</string>
+    <string name="howtouse3">3. In future if the Authorities do any kinds of change like time change or new Train then you will get all the updated news by clicking 3rd button. </string>
+    <string name="howtouse4">4. Here,we created another option for your help. Sometimes we need to know the Exact position of our targeted Train. So,if you want to know the Train position by SMS then you can click on the 4th button. We have mentioned all the rules here. </string>
+    <string name="howtouse5">5. In the 5th button we created an interesting topic. Here, You can take help from Facebook. We have added the active Facebook page(Gazipur to Kamalapur). So, you can do post here or can help someone. if anyone knows the Train location then they will comment on your post. In a short time with fre cost you can generate your information.   </string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_navigation__sujoy">Navigation_Sujoy</string>
+    <string name="title_activity_tabbedactisujoy">Tabbedactisujoy</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="tab_text_1">About App</string>
+    <string name="tab_text_2">About Developer</string>
+    <string name="tab_text_3">Developer</string>
+    //
+    <string name="abouttheapp">About This App</string>
+    <string name="bitmw">This app is only for Gazipur to Komalapur Train passengers. In this app you we have created some functionality to help the Train passengers properly. Please check them and if you have any suggestions then call us. We will response you. Thank you for downloading this app.  </string>
+    <string name="abouttheapp2"> Name: Afran Sarkar  </string>
+    <string name="abouttheapp3"> Address: Dhaka,Bangladesh  </string>
+    <string name="abouttheapp4"> Phone: 01616368112  </string>
+    <string name="abouttheapp5"> E-mail: thed9954@gmail.com </string>
+    <string name="abouttheapp6"> Education: Studying B.S.C in Computer Science and Engineering.  </string>
+    //
+    <string name="upegg">If any new Train comes or change their time Schedule then you will get the update here. </string>
+    <string name="name3">Name</string>
+    <string name="name4">Communicate</string>
+</resources>

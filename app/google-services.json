@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525858639044",
+    "firebase_url": "https://gazitokomlalast.firebaseio.com",
+    "project_id": "gazitokomlalast",
+    "storage_bucket": "gazitokomlalast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525858639044:android:662a1f003291a93a",
+        "android_client_info": {
+          "package_name": "vfdgcom.diuproject.semister.gazitffdfokomlalast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525858639044-h35t05qvld3jo0b0utrookr3c605tot6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vfdgcom.diuproject.semister.gazitffdfokomlalast",
+            "certificate_hash": "bb9fc1a10a4b2eb6388f56cc65e6a264a3c48564"
+          }
+        },
+        {
+          "client_id": "525858639044-v1i01bue4dv8v7cscivudlnf1npkt0dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsksgKmsvKWTAewYu55JIYo2Jqz91tuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525858639044-v1i01bue4dv8v7cscivudlnf1npkt0dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/mdd"
+    android:layout_height="match_parent"
+    tools:context=".Signin">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+                android:background="@drawable/employees"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/enterpass"
+
+                 />
+
+
+            <EditText
+                android:drawableStart="@drawable/ic_email_black_24dp"
+
+                android:gravity="center"
+                android:id="@+id/ETemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="@string/enteremail"
+                android:inputType="textEmailAddress"
+                android:autofillHints="" tools:targetApi="o"/>
+            <EditText
+                android:drawableStart="@drawable/ic_remove_red_eye_black_24dp"
+
+                android:gravity="center"
+                android:id="@+id/ETpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="@string/enterpass"
+                android:inputType="numberPassword"
+                android:autofillHints="" tools:targetApi="o"/>
+            <Button
+                android:background="@drawable/ripplebutton44"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:text="@string/Signup"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alreadyreg"
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+
+                android:layout_marginBottom="50dp"
+                android:background="#FFAA00"
+                android:id="@+id/TVSignIn"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:text="@string/loginhere"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

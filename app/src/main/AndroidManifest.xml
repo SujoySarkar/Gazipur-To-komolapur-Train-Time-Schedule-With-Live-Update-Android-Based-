@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vfdgcom.diuproject.semister.gazitffdfokomlalast">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hqdefault"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Aboutacti" android:parentActivityName=".Navigation_Sujoy"></activity>
+        <activity android:name=".ImagesActivity" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".MainActivity" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".Update_time" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".HelpACti" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".SmsSUjoy" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".Kom3rd" android:parentActivityName=".Komlaputto_Gazipurtime" />
+        <activity android:name=".Kom2nd"  android:parentActivityName=".Komlaputto_Gazipurtime"/>
+        <activity android:name=".Kom1st" android:parentActivityName=".Komlaputto_Gazipurtime" />
+        <activity android:name=".Komlaputto_Gazipurtime" android:parentActivityName=".Navigation_Sujoy" />
+        <activity android:name=".Gazi3rd"  android:parentActivityName=".GazitoKomlatime"/>
+        <activity android:name=".Gazi2nd"  android:parentActivityName=".GazitoKomlatime"/>
+        <activity android:name=".Gazi1st" android:parentActivityName=".GazitoKomlatime"/>
+        <activity android:name=".GazitoKomlatime" android:parentActivityName=".Navigation_Sujoy" />
+        <activity
+            android:name=".Navigation_Sujoy"
+            android:label="@string/title_activity_navigation__sujoy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Log_In" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

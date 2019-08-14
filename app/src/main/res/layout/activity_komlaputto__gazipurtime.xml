@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="30dp"
+    android:gravity="center"
+    tools:context=".Komlaputto_Gazipurtime">
+
+    <Button
+        android:layout_marginBottom="15dp"
+
+        android:id="@+id/komlatogazi1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/aa4"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/homerip1"
+        />
+
+
+    <Button
+        android:layout_marginBottom="15dp"
+
+        android:id="@+id/komlatogazi2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/aa5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/homerip1"
+        />
+
+
+    <Button
+
+        android:id="@+id/komlatogazi3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:text="@string/aa6"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/homerip1"
+        />
+
+</LinearLayout>

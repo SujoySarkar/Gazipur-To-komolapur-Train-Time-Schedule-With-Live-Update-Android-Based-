@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/am1"
+
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".Log_In">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_marginTop="0dp"
+            android:background="#FEFFFC"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/enterpass"
+                android:src="@drawable/employees" />
+
+            <EditText
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:gravity="center"
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no" tools:targetApi="o" />
+
+            <EditText
+                android:drawableStart="@drawable/ic_remove_red_eye_black_24dp"
+
+
+                android:id="@+id/loginpaswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="@string/password"
+                android:gravity="center"
+                android:inputType="numberPassword"
+                android:importantForAutofill="no" tools:targetApi="o" />
+
+            <Button
+
+
+                android:background="@drawable/ripplebutton44"
+                android:id="@+id/btnLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:text="@string/login"
+                android:textSize="20sp" />
+            <TextView
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newuser"
+                />
+
+            <TextView
+                android:layout_marginBottom="50dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:background="#F37F04"
+                android:layout_marginStart="15dp"
+                android:id="@+id/TVSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/reghere"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
